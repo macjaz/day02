@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "day02"
-  s.version          = "0.0.4"
+  s.version          = "0.0.5"
   s.summary          = "day02 iOS sdk."
   s.homepage         = "https://github.com/macjaz/day02.git"
   s.license          = 'MIT'
@@ -9,5 +9,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '9.0'
   s.requires_arc = true
   s.frameworks = 'Foundation', 'UIKit'
+  s.source_files  = "day02", "day02/**/*.{h,m}"
   #s.vendored_frameworks = 'day02.framework'
 end
