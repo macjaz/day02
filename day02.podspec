@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "day02"
-  s.version          = "0.0.2"
+  s.version          = "0.0.3"
   s.summary          = "day02 iOS sdk."
   s.homepage         = "https://github.com/macjaz/day02.git"
   s.license          = 'MIT'
