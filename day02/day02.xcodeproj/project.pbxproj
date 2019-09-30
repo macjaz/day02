@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		721148EA2341DB7400DAAD6F /* day02.h in Headers */ = {isa = PBXBuildFile; fileRef = 721148E82341DB7400DAAD6F /* day02.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		721148F22341DF3A00DAAD6F /* one.h in Headers */ = {isa = PBXBuildFile; fileRef = 721148F02341DF3A00DAAD6F /* one.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		721148F32341DF3A00DAAD6F /* one.m in Sources */ = {isa = PBXBuildFile; fileRef = 721148F12341DF3A00DAAD6F /* one.m */; };
+		721148F62341DF4200DAAD6F /* two.h in Headers */ = {isa = PBXBuildFile; fileRef = 721148F42341DF4200DAAD6F /* two.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		721148F72341DF4200DAAD6F /* two.m in Sources */ = {isa = PBXBuildFile; fileRef = 721148F52341DF4200DAAD6F /* two.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		721148E52341DB7400DAAD6F /* day02.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = day02.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		721148E82341DB7400DAAD6F /* day02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = day02.h; sourceTree = "<group>"; };
 		721148E92341DB7400DAAD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		721148F02341DF3A00DAAD6F /* one.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = one.h; sourceTree = "<group>"; };
+		721148F12341DF3A00DAAD6F /* one.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = one.m; sourceTree = "<group>"; };
+		721148F42341DF4200DAAD6F /* two.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = two.h; sourceTree = "<group>"; };
+		721148F52341DF4200DAAD6F /* two.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = two.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				721148E82341DB7400DAAD6F /* day02.h */,
+				721148F02341DF3A00DAAD6F /* one.h */,
+				721148F12341DF3A00DAAD6F /* one.m */,
+				721148F42341DF4200DAAD6F /* two.h */,
+				721148F52341DF4200DAAD6F /* two.m */,
 				721148E92341DB7400DAAD6F /* Info.plist */,
 			);
 			path = day02;
@@ -60,6 +72,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				721148EA2341DB7400DAAD6F /* day02.h in Headers */,
+				721148F22341DF3A00DAAD6F /* one.h in Headers */,
+				721148F62341DF4200DAAD6F /* two.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				721148F72341DF4200DAAD6F /* two.m in Sources */,
+				721148F32341DF3A00DAAD6F /* one.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
